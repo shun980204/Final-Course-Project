@@ -9,10 +9,10 @@ body {
 }
 
 h1,
-h2, 
-h3, 
+h2,
+h3,
 h4,
-h5, 
+h5,
 h6 {
     font-weight: 100;
 }
@@ -136,46 +136,24 @@ a:focus {
     color: #FFD662;
 }
 
-.header .topbar-social {
-    position: relative;
-}
-
-.header .topbar-social a {
-    display: inline-block;
-}
-
-.header .topbar-social a i {
-    margin-right: 10px;
-    font-size: 18px;
-    color: #00539C;
-}
-
-.header .topbar-social a:last-child i {
-    margin: 0;
-}
-
-.header .topbar-social a:hover i {
-    color: #FFD662;
-}
-
 @media (min-width: 992px) {
     .header .navbar {
         background: transparent !important;
     }
-    
+
     .header .navbar-brand {
         display: none;
     }
-    
+
     .header .navbar-light a.nav-link,
-    .header .navbar-light .show > .nav-link {
+    .header .navbar-light .show>.nav-link {
         position: relative;
         padding: 8px 10px;
         color: #7ed957;
         font-size: 20px;
         z-index: 1;
     }
-    
+
     .header .navbar-light a.nav-link:hover,
     .header .navbar-light a.nav-link.active {
         color: #FFD662;
@@ -187,30 +165,30 @@ a:focus {
         text-align: center;
         margin-bottom: 15px;
     }
-    
+
     .header .topbar {
         text-align: center;
         margin-bottom: 15px;
     }
-    
+
     .header .topbar .topbar-col {
         margin: 0;
     }
-    
+
     .header .topbar .topbar-social {
         margin-top: 5px;
     }
-    
+
     .header .navbar {
         background: #ffffff !important;
         border: none;
         z-index: 1;
     }
-    
+
     .header a.nav-link {
         padding: 5px 0;
     }
-    
+
     .header .dropdown-menu {
         box-shadow: none;
     }
@@ -243,7 +221,7 @@ a:focus {
     .header .navbar {
         border-radius: 5px;
     }
-    
+
     .header .navbar .btn {
         display: none;
     }
@@ -582,6 +560,7 @@ a:focus {
     text-align: center;
     margin-bottom: 30px;
 }
+
 .feature {
     position: relative;
     width: 100%;
@@ -961,7 +940,7 @@ a:focus {
     letter-spacing: 2px;
     background: #FFD662;
     border-radius: 5px;
-    transition:  .3s;
+    transition: .3s;
 }
 
 .price .price-action a i {
@@ -1025,7 +1004,7 @@ a:focus {
     height: 50px;
     padding: 10px 20px;
     font-size: 16px;
-    font-weight:400;
+    font-weight: 400;
     text-transform: uppercase;
     color: #000000;
     background: #FFD662;
@@ -1224,7 +1203,7 @@ a:focus {
     height: 60px;
     padding: 16px 35px 14px 35px;
     font-size: 18px;
-    font-weight:400;
+    font-weight: 400;
     text-transform: uppercase;
     color: #000000;
     background: #FFD662;
@@ -1451,7 +1430,7 @@ a:focus {
     .story .story-continue::before {
         left: 48.5px;
     }
-    
+
     .story .story-end,
     .story .story-start,
     .story .story-year,
@@ -1462,26 +1441,26 @@ a:focus {
     .story .story-launch {
         text-align: left;
     }
-    
+
     .story .story-date {
         padding: 0;
     }
-    
+
     .story .row.story-left .story-date::after,
     .story .row.story-right .story-date::after {
         left: 54.5px;
     }
-    
+
     .story .story-box,
     .story .row.story-right .story-date,
     .story .row.story-left .story-date {
         margin-left: 77px;
     }
-    
+
     .story .story-launch .story-box {
         margin-left: 0;
     }
-    
+
     .story .row.story-left .story-box::after {
         left: -20px;
         border-color: transparent #ffffff transparent transparent;
@@ -1491,7 +1470,7 @@ a:focus {
         left: -22px;
         border-color: transparent #dddddd transparent transparent;
     }
-    
+
     .story .story-launch .story-box::after,
     .story .story-launch .story-box::before {
         left: 30px;
@@ -1564,12 +1543,12 @@ a:focus {
     overflow: hidden;
     height: 400px;
     position: relative;
-    margin: 0; 
+    margin: 0;
 }
 
 .portfolio .portfolio-item figure img {
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -1748,7 +1727,7 @@ a:focus {
 
 .footer .footer-contact h2,
 .footer .footer-link h2,
-.footer .footer-form h2{
+.footer .footer-form h2 {
     position: relative;
     margin-bottom: 30px;
     font-size: 20px;
@@ -1794,7 +1773,7 @@ a:focus {
     margin-bottom: 10px;
     font-size: 14px;
     color: #ffffff;
-    
+
 }
 
 .footer .footer-link a::before {
@@ -1821,7 +1800,7 @@ a:focus {
     right: 5px;
     bottom: 5px;
     font-size: 14px;
-    font-weight:400;
+    font-weight: 400;
     text-transform: uppercase;
     color: #000000;
     background: #FFD662;
@@ -1893,10 +1872,10 @@ a:focus {
     background: #FFD662;
     border-radius: 6px;
     position: fixed;
-    top:0;
-    right:50%;
-    left:50%;
-    bottom:0;
+    top: 0;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
     transform: translate(-50%, -50%) scale(0.1);
     align-items: center;
     text-align: center;
@@ -1943,10 +1922,10 @@ a:focus {
 }
 
 @media (max-width: 768px) {
+
     .footer .copyright p,
     .footer .copyright .col-md-6:last-child p {
         margin: 5px 0;
         text-align: center;
     }
 }
-
