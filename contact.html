@@ -4,6 +4,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>CLEANX - Contact Us</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Final Course Project / CLEANX Cleaning Services"
@@ -31,6 +33,12 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <!-- CSS for the Google Map -->
+        <style>
+            #map {
+                height: 400px;
+            }
+        </style>
     </head>
 
     <body>
@@ -282,6 +290,13 @@
                             </div>
                         </div>
                         <div class="col-md-6">
+                            <!-- Google Map Section -->
+                            <div class="ct-map">
+                                <div id="map"></div>
+                            </div>
+                            <!-- Contact Form Section -->
+                            <div class="contact-form">
+                                <form>
                             <div class="contact-form">
                                 <form>
                                     <div class="form-row">
@@ -392,7 +407,7 @@
                 <div class="container copyright">
                     <div class="row">
                         <div class="col-md-5">
-                            <p>&copy; <a href>CLEANX</a> 2023, All Right Reserved.</p>
+                            <p>&copy; <a href>CLEANX</a>, All Right Reserved.</p>
                         </div>
                         <div class="col-md-6">
                             <p>Designed By <a href>Nelly B. & Evelyn C.</a></p>
@@ -416,6 +431,28 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+            <!-- Google Map Script -->
+            <script>
+                // Initialize and add the map
+                function initMap() {
+                    // The location of the map center
+                    var mapCenter = {lat: 41.906959533691406, lng: -87.66011810302734};
+                    // The map, centered at mapCenter
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 14,
+                        center: mapCenter
+                    });
+                    // Add a marker at mapCenter
+                    var marker = new google.maps.Marker({
+                        position: mapCenter,
+                        map: map,
+                        title: 'My location'
+                    });
+                }
+            </script>
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWRTNGXoFSGEqWmyHVLwJTvRMXU3WGVSk&libraries=maps,marker&v=beta&callback=initMap">
+            </script>
 
     </body>
 </html>
